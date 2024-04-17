@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    width: 130px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#inputPesquisa {
+    width: 250px;
+    height: 15px;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+#listaDespesas {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    font-size: 13px;
+    max-height: 200px;
+}
